@@ -1,20 +1,21 @@
 import React from "react";
+import Search from "./Search";
 
 const Nav = () => {
   return (
-    <div>
-      <div class="drawer drawer-mobile">
-        <input id="my-drawer-2" type="checkbox" class="drawer-toggle" />
-        <div class="drawer-content flex flex-col items-center justify-center">
-          <label
-            for="my-drawer-2"
-            class="btn btn-primary drawer-button lg:hidden"
-          >
+    <div className="m-5">
+      <div class="drawer">
+        <input id="my-drawer" type="checkbox" class="drawer-toggle" />
+        <div class="drawer-content flex justify-start">
+          <label for="my-drawer" class="btn btn-primary drawer-button">
             Open drawer
           </label>
+          <div className="ml-16  ">
+            <Search></Search>
+          </div>
         </div>
         <div class="drawer-side">
-          <label for="my-drawer-2" class="drawer-overlay"></label>
+          <label for="my-drawer" class="drawer-overlay"></label>
           <ul class="menu p-4 overflow-y-auto w-80 bg-base-100 text-base-content">
             <li>
               <a>Sidebar Item 1</a>
