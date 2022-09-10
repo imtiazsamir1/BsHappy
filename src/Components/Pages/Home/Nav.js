@@ -1,5 +1,6 @@
 import React from "react";
 import Search from "./Search";
+import Website from "./Website";
 
 const Nav = () => {
   return (
@@ -12,6 +13,7 @@ const Nav = () => {
           </label>
           <div className="ml-16  ">
             <Search></Search>
+            <Website></Website>
           </div>
         </div>
         <div class="drawer-side">
