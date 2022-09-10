@@ -3,10 +3,10 @@ import Search from "./Search";
 
 const Nav = () => {
   return (
-    <div className="m-5">
+    <div className="">
       <div class="drawer">
         <input id="my-drawer" type="checkbox" class="drawer-toggle" />
-        <div class="drawer-content flex justify-start">
+        <div class="drawer-content flex justify-start m-5">
           <label for="my-drawer" class="btn btn-primary drawer-button">
             Open drawer
           </label>
