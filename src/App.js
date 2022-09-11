@@ -4,7 +4,7 @@ import Footer from "./Components/Pages/Home/Footer";
 
 function App() {
   return (
-    <div>
+    <div className="home-box">
       <Home></Home>
       <Footer></Footer>
     </div>
