@@ -6,8 +6,8 @@ const Website = () => {
     <div>
       {/* web analaytics */}
       <div className="web-box">
-        <h2>Website Analaytics</h2>
-        <h2>trafic</h2>
+        <h2 className=" text-5xl font-bold">Website Analaytics</h2>
+        <h2 className="text-3xl">trafic</h2>
       </div>
       {/* stack overflow */}
       <div></div>
